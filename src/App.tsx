@@ -86,7 +86,7 @@ const App: React.FC = () => {
           <CardComp key={c.id} card={c} clickProp={handleCardClick} />
         ))}
       </div>
-      <ModalComp showModal={gameOver} toggleModal={startNewGame} />
+		<ModalComp showModal={gameOver} toggleModal={startNewGame} moves={moves} />
     </div>
   )
 }
