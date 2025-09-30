@@ -38,7 +38,7 @@ const ModalComp: React.FC<Props> = ({ showModal, toggleModal, moves }) => {
     <div className="modal-overlay">
       <div className="modal-banner">
         <div className="trophy">🏆</div>
-        <h1 className="win-title">🎉 YOU WIN! 🎉</h1>
+        <h1 className="win-title">🎉YOU WIN!🎉</h1>
         <p className="win-stats">Completed in <strong>{moves}</strong> moves!</p>
         <button className="restart-button" onClick={toggleModal}>
           🔄 Play Again
